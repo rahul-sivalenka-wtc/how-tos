@@ -18,3 +18,7 @@ git push origin master
 # Remove the old remote
 git remote rm oldorigin
 ```
+
+### Ref
+
+* [GitHub Gist](https://gist.github.com/mandiwise/5954bbb2e95c011885ff)
