@@ -2,7 +2,7 @@
 
 ## Run Windows 10 Store app or Metro style app on startup using a batch file
 
-* Find the app's package family name by following the steps in [Get App Package Information](GetMetroStyleAppPackageInformation)
+* Find the app's package family name by following the steps in [Get App Package Information](GetMetroStyleAppPackageInformation.md)
   ```powershell
   # Package family name will be in the following form
   Microsoft.SkypeApp_kzf8qxf38zg5c
@@ -13,7 +13,7 @@
   explorer.exe shell:AppsFolder\<PackageFamilyName>!<AppId>
   ```
   
-  > Don't forget to suffix the package family name with `!<AppId>` where app ID can be extracted by following the steps in 
+  > Don't forget to suffix the package family name with `!<AppId>` where app ID can be extracted by following the steps in [Get App ID for the app section](GetMetroStyleAppPackageInformation.md#Get-App-ID-for-the-app)
 * Open startup folder by running `shell:startup` in the Run command.
 * Paste the batch file created there.
 
